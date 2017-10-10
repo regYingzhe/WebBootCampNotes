@@ -7,6 +7,7 @@
 <p>First, create a <span> tag for that inline Text and assign and id</p>
 <p>Second, select that specific <span> tag by using querySelector</p>
 <p>Third, using textContent or innerHTML to change the content under the span</p>
+<p>Forth, to find out the input value, we could do first console.dir(tag), and we will see the value is a key this DOM</p>
 3.To grab a change event on the input <return>
 <p>First, select the input tag numInput = document.querySelector("Input")</p>
 <p>Second, add an EventListener</p>
