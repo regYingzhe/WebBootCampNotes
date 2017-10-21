@@ -11,3 +11,5 @@
 3.To grab a change event on the input <return>
 <p>First, select the input tag numInput = document.querySelector("Input")</p>
 <p>Second, add an EventListener</p>
+# Tip:
+1.querySelector only select the first element. That's why querySelectorAll exist.
