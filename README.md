@@ -11,6 +11,14 @@
 3.To grab a change event on the input <return>
 <p>First, select the input tag numInput = document.querySelector("Input")</p>
 <p>Second, add an EventListener</p>
+# jQuery Notes
+1. How to Manipulating Style: $(someSelector).css(property, value)
+2. you can create an object with multiple styles and apply the object as the value to jQuery. e.g. 
+var styles= {color: "red", background: "pink", border: "2px solid purple"}, then
+$('h1').css(styles)
+3. with jQuery if we want to change all the styles that applied to li, we don't need to loop through each element 
+like we did by using document.querySelectorAll('li'), just $('li').css('color', 'pink')
+4. 
 # Tip:
 1.querySelector only select the first element. That's why querySelectorAll exist.
 2.$() == querySelectorAll, $("li a") = to select all a tags inside of li's
