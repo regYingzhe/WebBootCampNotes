@@ -19,7 +19,10 @@ var styles= {color: "red", background: "pink", border: "2px solid purple"}, then
 $('h1').css(styles)
 3. with jQuery if we want to change all the styles that applied to li, we don't need to loop through each element 
 like we did by using document.querySelectorAll('li'), just $('li').css('color', 'pink')
-4. 
+4. text() to show all the text content 
+5. html() = innerHTML(), $('li').html('<li>I hacked your URL</li>'), don't mess up html and text. If we have a input test, and usr inject some js code or html code, we want to treat the code as text not html.
+6. 
+
 # Tip:
 1.querySelector only select the first element. That's why querySelectorAll exist.
 2.$() == querySelectorAll, $("li a") = to select all a tags inside of li's
