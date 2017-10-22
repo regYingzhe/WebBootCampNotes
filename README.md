@@ -13,3 +13,5 @@
 <p>Second, add an EventListener</p>
 # Tip:
 1.querySelector only select the first element. That's why querySelectorAll exist.
+2.$() == querySelectorAll, $("li a") = to select all a tags inside of li's
+3.
