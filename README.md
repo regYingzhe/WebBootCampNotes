@@ -11,7 +11,8 @@
 3.To grab a change event on the input <return>
 <p>First, select the input tag numInput = document.querySelector("Input")</p>
 <p>Second, add an EventListener</p>
-##jQuery Notes
+
+# jQuery Notes
 1. How to Manipulating Style: $(someSelector).css(property, value)
 2. you can create an object with multiple styles and apply the object as the value to jQuery. e.g. 
 var styles= {color: "red", background: "pink", border: "2px solid purple"}, then
