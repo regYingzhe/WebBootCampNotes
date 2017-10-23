@@ -26,7 +26,7 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 # EJS
 1. npm install ejs --save
 2. mkdir views; cd views; touch home.ejs
-3. <% javaScript code %>, <%= %> output the result to the html
+3. <% javaScript code %>, <%= %> output the result to the html. <%%> for logic, like loop and condition
 
 # Tip:
 1.querySelector only select the first element. That's why querySelectorAll exist.
