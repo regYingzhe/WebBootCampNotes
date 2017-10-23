@@ -28,6 +28,7 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 2. mkdir views; cd views; touch home.ejs
 3. <% javaScript code %>, <%= %> output the result to the html. <%%> for logic, like loop and condition
 4. `<li><%= posts[i].title %> - <strong><%= posts[i].author%></strong></li>`
+5. mkdir public; cd public; touch app.css; then let express use the css files inside public folder: app.use(express.static("public"))
 
 # Tip:
 1.querySelector only select the first element. That's why querySelectorAll exist.
