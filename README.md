@@ -17,11 +17,15 @@
 2. you can create an object with multiple styles and apply the object as the value to jQuery. e.g. 
 var styles= {color: "red", background: "pink", border: "2px solid purple"}, then
 $('h1').css(styles)
+### All of these funtions combine the getter and setter relationship, provide one argument, it will become a getter, provide two args, it will become a setter method
 3. with jQuery if we want to change all the styles that applied to li, we don't need to loop through each element 
 like we did by using document.querySelectorAll('li'), just $('li').css('color', 'pink')
-4. text() to show all the text content 
-5. html() = innerHTML(), $('li').html('<li>I hacked your URL</li>'), don't mess up html and text. If we have a input test, and usr inject some js code or html code, we want to treat the code as text not html.
-6. 
+4. text() to show all the text content, e.g. $("ul").text() will give me all the text inside "li". Still, it will be convinient to change all the text all at once.
+5. html() = innerHTML(),` $('li').html('<li>I hacked your URL</li>')`, don't mess up html and text. If we have a input test, and usr inject some js code or html code, we want to treat the code as text not html.
+6. `$('img').attr("src", "html")` to set, `$("img").attr("src")` to get the information
+7. `$('select').val()` to get the value from the dropdown menu
+8. `$('input').val()` to retrieve the value from the input bar
+9. `$('ul').addClass("correct")`, `$('li').last.toggleClass("correct")`, `$('li').last.removeClass("correct")`
 
 # EJS
 1. npm install ejs --save
