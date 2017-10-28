@@ -28,6 +28,11 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 9. `$('ul').addClass("correct")`, `$('li').last.toggleClass("correct")`, `$('li').last.removeClass("correct")`
 10. click() method is a quick and easy way to add a click listener to element(s). `$("#submit").click(function() {})`, `$("button").click(function () {})`
 11. `$("button").click(function() {$(this).css("background", "green")})` what happens behind the senses is we loops through each html element with tag button, and add click listener to each button. In vanilla html, we can use this to access the instance of the button that we click on, but in jQuery, we need to use $(this)
+12. `$("input").keypress(function(event) {
+	if(event.which == 13) {
+	console.log("You pressed Enter")
+}
+})` keypress function 
 
 # EJS
 1. npm install ejs --save
