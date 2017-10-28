@@ -32,7 +32,9 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 	if(event.which == 13) {
 	console.log("You pressed Enter")
 }
-})` keypress function 
+})` keypress function can know which key you got pressed because each key encoded by a number in javascript.
+13. 90% of the time, we will use on listener. `$("h1").on("click", function() {$(this).css("color", "purple")})`, mouseenter event: when hover over a button, the text will become bold for example. `$("button").on("mouseenter", function () { $(this).css("font-weight", "bold")})`, mouseleave: when mouse leave the button, the text will become normal
+14. 
 
 # EJS
 1. npm install ejs --save
