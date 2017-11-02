@@ -11,7 +11,7 @@
 3.To grab a change event on the input <return>
 <p>First, select the input tag numInput = document.querySelector("Input")</p>
 <p>Second, add an EventListener</p>
-4.How to add a post route:
+4.How to add a post route: From the get route form submit post to the post route
 `var fruit = [apple, waterMelon];`
 `app.post("/addfruit", function(req, res) { var newFruit = req.body.newfruit; fruit.push(newFruit); res.redirect("/fruit")});
  app.get("/fruit", function(req, res) { res.render("fruit", {fruit: fruit})})`, 
