@@ -11,6 +11,16 @@
 3.To grab a change event on the input <return>
 <p>First, select the input tag numInput = document.querySelector("Input")</p>
 <p>Second, add an EventListener</p>
+4.How to add a post route:
+`var fruit = [apple, waterMelon];`
+`app.post("/addfruit", function(req, res) { var newFruit = req.body.newfruit; fruit.push(newFruit); res.redirect("/fruit")});
+ app.get("/fruit", function(req, res) { res.render("fruit", {fruit: fruit})})`, 
+ then use form to make post request. Inside EJS fruit,
+`<form action="/addfruit" methos="POST">
+	<input type="text" placeholder="fruit" name="newFruit"></input>
+	<button>Submit</button>
+ </form>`
+
 
 # jQuery Notes
 1. How to Manipulating Style: $(someSelector).css(property, value)
