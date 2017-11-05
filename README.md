@@ -11,7 +11,7 @@
 3.To grab a change event on the input <return>
 <p>First, select the input tag numInput = document.querySelector("Input")</p>
 <p>Second, add an EventListener</p>
-4.##### How to add a post route: From the get route form submit post to the post route, in the restful convention, the post route name ##### should be same with the get route name which displays everything
+4. How to add a post route: From the get route form submit post to the post route, in the restful convention, the post route name should be same with the get route name which show me everything. The form get route should be something like /fruit/new to submit the form to the post route
 `var fruit = [apple, waterMelon];`
 `app.post("/addfruit", function(req, res) { var newFruit = req.body.newfruit; fruit.push(newFruit); res.redirect("/fruit")});
  app.get("/fruit", function(req, res) { res.render("fruit", {fruit: fruit})})`, 
