@@ -11,7 +11,7 @@
 3.To grab a change event on the input <return>
 <p>First, select the input tag numInput = document.querySelector("Input")</p>
 <p>Second, add an EventListener</p>
-4.How to add a post route: From the get route form submit post to the post route
+4.##### How to add a post route: From the get route form submit post to the post route, in the restful convention, the post route name ##### should be same with the get route name which displays everything
 `var fruit = [apple, waterMelon];`
 `app.post("/addfruit", function(req, res) { var newFruit = req.body.newfruit; fruit.push(newFruit); res.redirect("/fruit")});
  app.get("/fruit", function(req, res) { res.render("fruit", {fruit: fruit})})`, 
@@ -52,6 +52,11 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 3. <% javaScript code %>, <%= %> output the result to the html. <%%> for logic, like loop and condition
 4. `<li><%= posts[i].title %> - <strong><%= posts[i].author%></strong></li>`
 5. mkdir public; cd public; touch app.css; then let express use the css files inside public folder: app.use(express.static("public"))
+6. `<% campgrounds.forEach(function(campground) { %>
+    <div>
+        <h4><%= campground.name%></h4>
+    </div>
+<% }); %>`
 
 # Tip:
 1.querySelector only select the first element. That's why querySelectorAll exist.
