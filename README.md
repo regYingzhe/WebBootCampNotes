@@ -58,6 +58,17 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
     </div>
 <% }); %>`
 
+# Mongo DB Commands
+1. mongod: mongo server start up
+2. mongo: mongo shell
+3. help
+4. show dbs
+5. use
+6. insert
+7. find
+8. update
+9. remove
+
 # Tip:
 1.querySelector only select the first element. That's why querySelectorAll exist.
 2.$() == querySelectorAll, $("li a") = to select all a tags inside of li's
