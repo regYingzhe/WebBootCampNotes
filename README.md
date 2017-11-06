@@ -63,10 +63,10 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 2. mongo: mongo shell
 3. help
 4. show dbs
-5. use
-6. insert
-7. find
-8. update
+5. use: create databases,e.g. use dogs
+6. insert: db.dogs.insert({name:"Hello", breed: "Mutt"})
+7. find: db.dogs.find() to show *
+8. update:
 9. remove
 
 # Tip:
