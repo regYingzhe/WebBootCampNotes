@@ -65,9 +65,9 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 4. show dbs
 5. use: create databases,e.g. use dogs
 6. insert: db.dogs.insert({name:"Hello", breed: "Mutt"})
-7. find: db.dogs.find() to show *
-8. update:
-9. remove
+7. find: db.dogs.find() to show *, db.dogs.find({breed: "Mutt"})
+8. update: db.dogs.update({name:"Hello", {$set:{name: "Tater", isCute: true}}})
+9. remove: db.dogs.remove({breed: "Mutt"}), db.dogs.remove({breed:"Mutt"}).limit(1)
 
 # Tip:
 1.querySelector only select the first element. That's why querySelectorAll exist.
