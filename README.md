@@ -69,6 +69,14 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 8. update: db.dogs.update({name:"Hello", {$set:{name: "Tater", isCute: true}}})
 9. remove: db.dogs.remove({breed: "Mutt"}), db.dogs.remove({breed:"Mutt"}).limit(1)
 
+# RESTFUL APP:
+name      url         verb                   desc.    <br />
+`=============================================================` <br />
+INDEX     /movie       GET          Display a list of all movies <br />
+NEW       /movie/new   GET	    Display form to make a new moive <br />
+CREATE    /movie       POST         Add new dog to DB <br />
+
+
 # Tip:
 1.querySelector only select the first element. That's why querySelectorAll exist.
 2.$() == querySelectorAll, $("li a") = to select all a tags inside of li's
