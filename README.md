@@ -68,6 +68,7 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 7. find: db.dogs.find() to show *, db.dogs.find({breed: "Mutt"})
 8. update: db.dogs.update({name:"Hello", {$set:{name: "Tater", isCute: true}}})
 9. remove: db.dogs.remove({breed: "Mutt"}), db.dogs.remove({breed:"Mutt"}).limit(1)
+10. drop: drop the database
 
 # RESTFUL APP:
 name      url         verb                   desc.    <br />
