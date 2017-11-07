@@ -75,6 +75,7 @@ name      url         verb                   desc.    <br />
 INDEX     /movie       GET          Display a list of all movies <br />
 NEW       /movie/new   GET	    Display form to make a new moive <br />
 CREATE    /movie       POST         Add new dog to DB <br />
+SHOW .    /movie/:id . GET .        SHOW info about one dog <br/>
 
 
 # Tip:
