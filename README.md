@@ -68,15 +68,19 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 7. find: db.dogs.find() to show *, db.dogs.find({breed: "Mutt"})
 8. update: db.dogs.update({name:"Hello", {$set:{name: "Tater", isCute: true}}})
 9. remove: db.dogs.remove({breed: "Mutt"}), db.dogs.remove({breed:"Mutt"}).limit(1)
-10. drop: drop the database
+10. drop: drop the database, e.g. db.collection_name.drop() to drop a model
+11. findByID
 
 # RESTFUL APP:
-name      url         verb                   desc.    <br />
-`=============================================================` <br />
-INDEX     /movie       GET          Display a list of all movies <br />
+name      url         verb                   desc.                   <br />
+`=============================================================`      <br />
+INDEX     /movie       GET          Display a list of all movies     <br />
 NEW       /movie/new   GET	    Display form to make a new moive <br />
-CREATE    /movie       POST         Add new dog to DB <br />
-SHOW .    /movie/:id . GET .        SHOW info about one dog <br/>
+CREATE    /movie       POST         Add new dog to DB                <br />
+SHOW     /movie/:id    GET          SHOW info about one movie        <br />
+EDIT .   /movie/:id/edit GET        SHOW edit form for one moive .   <br/>
+UPDATE   /moive/:id .    PUT .      Update a particular dog, then redirect somewhere <br/>
+DESTORY  /moive/:id .    DELETE .   Delete a particular dog, then redirect somewhere <br />
 
 
 # Tip:
