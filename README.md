@@ -72,15 +72,15 @@ like we did by using document.querySelectorAll('li'), just $('li').css('color', 
 11. findByID
 
 # RESTFUL APP:
-name      url         verb                   desc.                   <br />
-`=============================================================`      <br />
-INDEX     /movie       GET          Display a list of all movies     <br />
-NEW       /movie/new   GET	    Display form to make a new moive <br />
-CREATE    /movie       POST         Add new dog to DB                <br />
-SHOW     /movie/:id    GET          SHOW info about one movie        <br />
-EDIT .   /movie/:id/edit GET        SHOW edit form for one moive .   <br/>
-UPDATE   /moive/:id .    PUT .      Update a particular dog, then redirect somewhere <br/>
-DESTORY  /moive/:id .    DELETE .   Delete a particular dog, then redirect somewhere <br />
+name             url               verb              desc.                            <br />
+`=============================================================`                       <br />
+INDEX            /movies            GET               Display a list of all movies     <br />
+NEW              /movies/new        GET	              Display form to make a new moive <br />
+CREATE           /movies            POST              Add new dog to DB                <br />
+SHOW             /movies/:id        GET               SHOW info about one movie        <br />
+EDIT .           /movies/:id/edit   GET              SHOW edit form for one movie   <br/>
+UPDATE           /movies/:id .      PUT               Update a particular movie, then redirect somewhere <br/>
+DESTORY          /movies/:id .      DELETE            Delete a particular movie, then redirect somewhere <br />
 
 
 # Tip:
