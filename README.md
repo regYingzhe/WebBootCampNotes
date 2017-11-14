@@ -20,6 +20,7 @@
 	<input type="text" placeholder="fruit" name="newFruit"></input>
 	<button>Submit</button>
  </form>`
+5. The general syntax for defining styles directly in an HTML Tag. `<h1 style="color:red">Hello World</h1>`, style is attribute so doesn't need to be in quote. Declaration need to be in quote otherwise it will be undefined. 
 
 
 # jQuery Notes
