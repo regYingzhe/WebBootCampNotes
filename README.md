@@ -87,5 +87,5 @@ DESTORY          /movies/:id .      DELETE            Delete a particular 
 # Tip:
 1.querySelector only select the first element. That's why querySelectorAll exist.
 2.$() == querySelectorAll, $("li a") = to select all a tags inside of li's
-3.
+3. body-parser is used to parse the form info. 
 4
